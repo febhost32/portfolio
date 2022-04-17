@@ -1,0 +1,21 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.title h1 {
+    font-size: 35pt;
+    margin: 0;
+}
+
+.title h2 {
+    font-size: 15pt;
+    margin: 0;
+}
+
+.title h3 {
+    font-size: 10pt;
+    margin: 0;
+}
