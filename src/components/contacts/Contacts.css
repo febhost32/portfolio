@@ -1,0 +1,23 @@
+.contacts-container {
+    display: flex;
+}
+
+.contacts-wrapper {
+    display: flex;
+    justify-content: end;
+    flex-grow: 1;
+    flex-direction: row;
+    gap: 20px;
+    margin: 10px;
+}
+
+.contacts-wrapper img {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+    filter: invert(50%);
+}
+
+.contacts-wrapper img:hover {
+    filter: invert(100%);
+}
