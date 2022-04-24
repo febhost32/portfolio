@@ -1,18 +1,15 @@
 import React from "react";
 import "./Card.css";
 
+interface CardProps {
+    children : JSX.Element
+}
 
-const Card: React.FC = () => {
+const Card: React.FC<CardProps> = ({children}) => {
 
     return (
         <div className="card-container">
-            <div className="card-title-section">
-             Test title
-            </div>
-            <hr />
-            <div className="card-body-section">
-                test body
-            </div>
+            {children}
         </div>
     )
 }

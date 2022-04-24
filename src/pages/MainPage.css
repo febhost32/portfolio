@@ -24,3 +24,7 @@
 .aboutme-section .title-text {
     text-align: center;
 }
+
+.aboutme-section .aboutme {
+    overflow-wrap: break-word;
+}
