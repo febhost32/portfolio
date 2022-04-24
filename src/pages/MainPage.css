@@ -1,6 +1,6 @@
 .page-container {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 .page-container .main-section {
@@ -13,4 +13,14 @@
     height: 80%;
     place-content: center;
     align-items: center;
+}
+
+.aboutme-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme-section .title-text {
+    text-align: center;
 }

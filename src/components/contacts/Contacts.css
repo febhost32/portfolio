@@ -4,7 +4,7 @@
 
 .contacts-wrapper {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     flex-grow: 1;
     flex-direction: row;
     gap: 20px;
