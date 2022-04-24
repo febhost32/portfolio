@@ -9,6 +9,7 @@ const Card: React.FC = () => {
             <div className="card-title-section">
              Test title
             </div>
+            <hr />
             <div className="card-body-section">
                 test body
             </div>
