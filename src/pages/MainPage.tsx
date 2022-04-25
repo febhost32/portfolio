@@ -44,7 +44,43 @@ function MainPage() {
                     </Card>
                 </div>
                 <div className="portfolio-section"> 
-                    <h1 className="title-text">Portfolio coming soon...</h1>
+                    <h1 className="title-text">Portfolio</h1>
+                    <div className="portfolio-wrapper">
+                        <div className="left-pane">
+                        <Card>
+                        <div style={{maxWidth: "600px", textAlign:"justify"}}>
+                            <h3>Febrian Pratama Putra</h3>
+                            <hr />
+                        </div>
+                        </Card>
+                        </div>
+                        <div className="right-pane">
+                        <Card>
+                        <div style={{maxWidth: "600px", textAlign:"justify"}}>
+                            <h5>Kimberly-Clark Softex Indonesia</h5>
+                            <hr />
+                        </div>
+                        </Card>
+                        <Card>
+                        <div style={{maxWidth: "600px", textAlign:"justify"}}>
+                            <h5>AIA Singapore</h5>
+                            <hr />
+                        </div>
+                        </Card>
+                        <Card>
+                        <div style={{maxWidth: "600px", textAlign:"justify"}}>
+                            <h5>Sidoarjo Government</h5>
+                            <hr />
+                        </div>
+                        </Card>
+                        <Card>
+                        <div style={{maxWidth: "600px", textAlign:"justify"}}>
+                            <h5>PT. Eastern Pearl Flour Mills</h5>
+                            <hr />
+                        </div>
+                        </Card>
+                        </div>
+                    </div> 
                 </div>
             </div>
         )
