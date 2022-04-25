@@ -65,6 +65,7 @@ p {
 .portfolio-wrapper .left-pane {
     display: flex;
     flex-direction: column;
+    min-width: 400px;
 }
 
 .portfolio-wrapper .right-pane {
@@ -77,5 +78,9 @@ p {
         margin-left: 0;
         margin-right: 0;
         flex-wrap: wrap;
+    }
+
+    .portfolio-wrapper .left-pane {
+        min-width: 0;
     }
 }
