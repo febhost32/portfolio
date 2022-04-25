@@ -3,6 +3,7 @@ import Title from "../components/title/Title";
 import Contacts from "../components/contacts/Contacts";
 import Card from "../components/card/Card";
 import Link from "../components/link/Link";
+import Febrian from "../assets/febrian.jpeg";
 
 function MainPage() {
 
@@ -49,6 +50,7 @@ function MainPage() {
                         <div className="left-pane">
                         <Card>
                         <div style={{maxWidth: "600px", textAlign:"justify"}}>
+                            <img src={Febrian} alt="Febrian" style={{borderRadius: "50%", maxWidth:"100px"}}/>
                             <h3>Febrian Pratama Putra</h3>
                             <hr />
                         </div>
@@ -59,24 +61,30 @@ function MainPage() {
                         <div style={{maxWidth: "600px", textAlign:"justify"}}>
                             <h5>Kimberly-Clark Softex Indonesia</h5>
                             <hr />
+                            <Link link="https://sweetycare.com/gts/main/home" target="_blank" text="Visit site" />
                         </div>
                         </Card>
                         <Card>
                         <div style={{maxWidth: "600px", textAlign:"justify"}}>
-                            <h5>AIA Singapore</h5>
+                            <h5>AIA Singapore</h5> 
                             <hr />
+                            <Link link="https://myaia.aia.com.sg/en/my-aia/login.html" target="_blank" text="Visit site" />
                         </div>
                         </Card>
                         <Card>
                         <div style={{maxWidth: "600px", textAlign:"justify"}}>
                             <h5>Sidoarjo Government</h5>
                             <hr />
+                            <Link link="https://goo.gl/maps/4LSQ9zPr7eVMGHeY6" target="_blank" text="Check on Google maps" />
+                            
                         </div>
                         </Card>
                         <Card>
                         <div style={{maxWidth: "600px", textAlign:"justify"}}>
                             <h5>PT. Eastern Pearl Flour Mills</h5>
                             <hr />
+                            <Link link="http://interflour.com.ph/id/our-business/flour-milling/pt-eastern-pearl-flour-mills" target="_blank" text="Visit site" />
+                            
                         </div>
                         </Card>
                         </div>
