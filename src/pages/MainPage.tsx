@@ -65,7 +65,7 @@ function MainPage() {
                             <h4>Kimberly-Clark Softex Indonesia</h4>
                             <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Freelance Web Developer</p> <p className="italic fontsize-10">Sep 2021 - Mar 2022</p></InlineWrapper>
                             <hr />
-                            Freelance Web Development work where i do design, plan and Implement the UI based from proposed design along with all the features required to make such feature
+                            <p>Freelance Web Development work where i do design, plan and Implement the UI based from proposed design along with all the features required to make such feature</p>
                             <br />
                             <Link link="https://sweetycare.com/gts/main/home" target="_blank" text="Visit site" />
                         </Card>
@@ -73,7 +73,23 @@ function MainPage() {
                             <h4>AIA Singapore</h4>
                             <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Web Developer</p> <p className="italic fontsize-10">July 2020 - July 2022</p></InlineWrapper>
                             <hr />
-
+                            <ul>
+                                <li>Maintaining existing code to be able to change with latest User Requirements</li>
+                                <li>Plan, Design and Implement new feature to the software as per user Request</li>
+                                <li>Involved in few Projects :
+                                    <ul>
+                                        <li>MyAIA BAU</li>
+                                        <li>MyAIA Phase4</li>
+                                        <li>MyAIA Rewards</li>
+                                    </ul>
+                                </li>
+                                <li>As a Scrum Master, i also :
+                                    <ul>
+                                        <li>Helping team to Remove Blockers and refocus team goals</li>
+                                        <li>Bridge between developers when help is needed</li>
+                                    </ul>
+                                </li>
+                            </ul>
                             <br />
                             <Link link="https://myaia.aia.com.sg/en/my-aia/login.html" target="_blank" text="Visit site" />
                         </Card>
@@ -81,7 +97,11 @@ function MainPage() {
                             <h4>Sidoarjo Government</h4>
                             <InlineWrapper><p className="italic fontsize-10 flex-grow-1">IT Auditor</p> <p className="italic fontsize-10">Sep 2018 - Nov 2018</p></InlineWrapper>
                             <hr />
-
+                            <ul>
+                                <li>Collecting evidence require for IT Auditing Assessment</li>
+                                <li>Communicate with user regarding said evidence for more information</li>
+                                <li>Assessing collected evidence according to Government Issued Standard &#40;SPBE&#41;</li>
+                            </ul>
                             <br />
                             <Link link="https://goo.gl/maps/4LSQ9zPr7eVMGHeY6" target="_blank" text="Check on Google maps" />
                         </Card>
@@ -89,7 +109,10 @@ function MainPage() {
                             <h4>PT. Eastern Pearl Flour Mills</h4>
                             <InlineWrapper><p className="italic fontsize-10 flex-grow-1">IT Support</p> <p className="italic fontsize-10">June 2018 - Aug 2018</p></InlineWrapper>
                             <hr />
-
+                            <ul>
+                                <li>Supporting daily IT Activities with IT Support staffs</li>
+                                <li>Maintaining and monitoring network infrastructure within company</li>
+                            </ul>
                             <br />
                             <Link link="http://interflour.com.ph/id/our-business/flour-milling/pt-eastern-pearl-flour-mills" target="_blank" text="Visit site" />
                         </Card>
