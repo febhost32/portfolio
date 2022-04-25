@@ -50,7 +50,6 @@ function MainPage() {
                     <div className="portfolio-wrapper">
                         <div className="left-pane">
                         <Card>
-                        <Wrapper>
                             <img src={Febrian} alt="Febrian" style={{borderRadius: "50%", maxWidth:"100px"}}/>
                             <h3>Febrian Pratama Putra</h3>
                             <hr />
@@ -59,44 +58,33 @@ function MainPage() {
                             <p>Email&emsp;: feb.pratama32@gmail.com <Link link="mailto: feb.pratama32@gmail.com" target="_blank" text="Mail here"/></p>
                             <p>LinkedIn&emsp;: <Link link="https://www.linkedin.com/in/febrian-pratama-putra-a25138147/" target="_blank" text="Visit here!"/> </p>
                             <p>Github&emsp;: <Link link="https://github.com/febhost32" target="_blank" text="Visit here!"/> </p>
-                            
-                        </Wrapper>
                         </Card>
                         </div>
                         <div className="right-pane">
                         <Card>
-                        <Wrapper>
                             <h4>Kimberly-Clark Softex Indonesia</h4>
                             <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Freelance Web Developer</p> <p className="italic fontsize-10">Sep 2021 - Mar 2022</p></InlineWrapper>
                             <hr />
+                            Freelance Web Development work where i do design, plan and Implement the UI based from proposed design along with all the features required to make such feature
                             <Link link="https://sweetycare.com/gts/main/home" target="_blank" text="Visit site" />
-                        </Wrapper>
                         </Card>
                         <Card>
-                        <Wrapper>
                             <h4>AIA Singapore</h4>
                             <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Web Developer</p> <p className="italic fontsize-10">July 2020 - July 2022</p></InlineWrapper>
                             <hr />
                             <Link link="https://myaia.aia.com.sg/en/my-aia/login.html" target="_blank" text="Visit site" />
-                        </Wrapper>
                         </Card>
                         <Card>
-                        <Wrapper>
                             <h4>Sidoarjo Government</h4>
                             <InlineWrapper><p className="italic fontsize-10 flex-grow-1">IT Auditor</p> <p className="italic fontsize-10">Sep 2018 - Nov 2018</p></InlineWrapper>
                             <hr />
                             <Link link="https://goo.gl/maps/4LSQ9zPr7eVMGHeY6" target="_blank" text="Check on Google maps" />
-                            
-                        </Wrapper>
                         </Card>
                         <Card>
-                        <Wrapper>
                             <h4>PT. Eastern Pearl Flour Mills</h4>
                             <InlineWrapper><p className="italic fontsize-10 flex-grow-1">IT Support</p> <p className="italic fontsize-10">June 2018 - Aug 2018</p></InlineWrapper>
                             <hr />
                             <Link link="http://interflour.com.ph/id/our-business/flour-milling/pt-eastern-pearl-flour-mills" target="_blank" text="Visit site" />
-                            
-                        </Wrapper>
                         </Card>
                         </div>
                     </div> 

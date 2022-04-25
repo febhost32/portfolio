@@ -2,7 +2,7 @@ import React from "react";
 import "./Card.css";
 
 interface CardProps {
-    children : JSX.Element
+    children : React.ReactNode
 }
 
 const Card: React.FC<CardProps> = ({children}) => {
