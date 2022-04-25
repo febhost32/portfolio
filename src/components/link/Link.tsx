@@ -11,7 +11,7 @@ const Link: React.FC<LinkProps> = ({link, target, text}) => {
 
 
     return (
-        <a href={link} target={target} rel="noreferrer">{text}</a>
+        <a href={link} target={target} rel="noreferrer" style={{fontSize: "9pt"}}>{text}</a>
     )
 }
 

@@ -4,9 +4,10 @@ import Contacts from "../components/contacts/Contacts";
 import Card from "../components/card/Card";
 import Link from "../components/link/Link";
 import Febrian from "../assets/febrian.jpeg";
+import { Wrapper } from "../components/wrapper/Wrapper";
+import { InlineWrapper } from "../components/inlineWrapper/InlineWrapper";
 
 function MainPage() {
-
 
         return (
             <div className="page-container">
@@ -19,7 +20,7 @@ function MainPage() {
                 <div className="aboutme-section"> 
                     <h1 className="title-text">About Me</h1>
                     <Card>
-                        <div style={{maxWidth: "600px", textAlign:"justify"}}>
+                        <Wrapper>
                         <p className="aboutme">
                         Hello, My name is Febrian, I am a Web developer with 2 Years Experience. Currently residing in <Link link="https://goo.gl/maps/23bWT56BXF9K6qXBA" target="_blank" text="Sumbawa Besar, NTB." /> 
                         <br />
@@ -41,7 +42,7 @@ function MainPage() {
                         <br />
                         I also have experience as a scrum master.
                         </p>
-                        </div>
+                        </Wrapper>
                     </Card>
                 </div>
                 <div className="portfolio-section"> 
@@ -49,43 +50,53 @@ function MainPage() {
                     <div className="portfolio-wrapper">
                         <div className="left-pane">
                         <Card>
-                        <div style={{maxWidth: "600px", textAlign:"justify"}}>
+                        <Wrapper>
                             <img src={Febrian} alt="Febrian" style={{borderRadius: "50%", maxWidth:"100px"}}/>
                             <h3>Febrian Pratama Putra</h3>
                             <hr />
-                        </div>
+                            <p>Address&emsp;: Sumbawa Besar, West Nusa Tenggara</p>
+                            <p>Phone&emsp;: Check in my <Link link="https://drive.google.com/file/d/1-6BvASwCF94LgXVOLnjv5sHjZDuc2RHb/view?usp=sharing" target="_blank" text="CV"/></p>
+                            <p>Email&emsp;: feb.pratama32@gmail.com <Link link="mailto: feb.pratama32@gmail.com" target="_blank" text="Mail here"/></p>
+                            <p>LinkedIn&emsp;: <Link link="https://www.linkedin.com/in/febrian-pratama-putra-a25138147/" target="_blank" text="Visit here!"/> </p>
+                            <p>Github&emsp;: <Link link="https://github.com/febhost32" target="_blank" text="Visit here!"/> </p>
+                            
+                        </Wrapper>
                         </Card>
                         </div>
                         <div className="right-pane">
                         <Card>
-                        <div style={{maxWidth: "600px", textAlign:"justify"}}>
-                            <h5>Kimberly-Clark Softex Indonesia</h5>
+                        <Wrapper>
+                            <h4>Kimberly-Clark Softex Indonesia</h4>
+                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Freelance Web Developer</p> <p className="italic fontsize-10">Sep 2021 - Mar 2022</p></InlineWrapper>
                             <hr />
                             <Link link="https://sweetycare.com/gts/main/home" target="_blank" text="Visit site" />
-                        </div>
+                        </Wrapper>
                         </Card>
                         <Card>
-                        <div style={{maxWidth: "600px", textAlign:"justify"}}>
-                            <h5>AIA Singapore</h5> 
+                        <Wrapper>
+                            <h4>AIA Singapore</h4>
+                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Web Developer</p> <p className="italic fontsize-10">July 2020 - July 2022</p></InlineWrapper>
                             <hr />
                             <Link link="https://myaia.aia.com.sg/en/my-aia/login.html" target="_blank" text="Visit site" />
-                        </div>
+                        </Wrapper>
                         </Card>
                         <Card>
-                        <div style={{maxWidth: "600px", textAlign:"justify"}}>
-                            <h5>Sidoarjo Government</h5>
+                        <Wrapper>
+                            <h4>Sidoarjo Government</h4>
+                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">IT Auditor</p> <p className="italic fontsize-10">Sep 2018 - Nov 2018</p></InlineWrapper>
                             <hr />
                             <Link link="https://goo.gl/maps/4LSQ9zPr7eVMGHeY6" target="_blank" text="Check on Google maps" />
                             
-                        </div>
+                        </Wrapper>
                         </Card>
                         <Card>
-                        <div style={{maxWidth: "600px", textAlign:"justify"}}>
-                            <h5>PT. Eastern Pearl Flour Mills</h5>
+                        <Wrapper>
+                            <h4>PT. Eastern Pearl Flour Mills</h4>
+                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">IT Support</p> <p className="italic fontsize-10">June 2018 - Aug 2018</p></InlineWrapper>
                             <hr />
                             <Link link="http://interflour.com.ph/id/our-business/flour-milling/pt-eastern-pearl-flour-mills" target="_blank" text="Visit site" />
                             
-                        </div>
+                        </Wrapper>
                         </Card>
                         </div>
                     </div> 
