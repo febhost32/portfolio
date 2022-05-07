@@ -14,6 +14,11 @@ import Python from "../assets/python.png";
 import React from "../assets/React.png";
 import Redux from "../assets/redux.png";
 import TypeScript from "../assets/TypeScript.png";
+import CSS from "../assets/CSS3.png";
+import HTML from "../assets/HTML5.png";
+import MySQL from "../assets/MySQL.png";
+import Angular from "../assets/Angular.png";
+import Sybase from "../assets/sybase.png";
 import { Wrapper } from "../components/wrapper/Wrapper";
 import { InlineWrapper } from "../components/inlineWrapper/InlineWrapper";
 
@@ -76,6 +81,11 @@ function MainPage() {
                             <img src={JavaScript} alt="JavaScript" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={React} alt="React" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={TypeScript} alt="TypeScript" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Angular} alt="Angular" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={MySQL} alt="MySQL" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Sybase} alt="Sybase" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={HTML} alt="HTML5" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={CSS} alt="CSS3" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={AEM} alt="AEM" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Android} alt="Android" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Express} alt="Express" style={{maxWidth:"100px", margin:"10px"}}/>
