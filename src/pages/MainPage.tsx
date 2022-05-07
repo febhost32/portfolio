@@ -79,20 +79,20 @@ function MainPage() {
                             <hr />
                             <div style={{display: "flex", placeItems:"center", justifyContent: "center", flexWrap: "wrap"}}>
                             <img src={JavaScript} alt="JavaScript" style={{maxWidth:"100px", margin:"10px"}}/>
-                            <img src={React} alt="React" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={TypeScript} alt="TypeScript" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={React} alt="React" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Redux} alt="Redux" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Angular} alt="Angular" style={{maxWidth:"100px", margin:"10px"}}/>
-                            <img src={MySQL} alt="MySQL" style={{maxWidth:"100px", margin:"10px"}}/>
-                            <img src={Sybase} alt="Sybase" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={AEM} alt="AEM" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={jQuery} alt="jQuery" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={HTML} alt="HTML5" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={CSS} alt="CSS3" style={{maxWidth:"100px", margin:"10px"}}/>
-                            <img src={AEM} alt="AEM" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Java} alt="Java" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Python} alt="Python" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Android} alt="Android" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Express} alt="Express" style={{maxWidth:"100px", margin:"10px"}}/>
-                            <img src={Java} alt="Java" style={{maxWidth:"100px", margin:"10px"}}/>
-                            <img src={jQuery} alt="jQuery" style={{maxWidth:"100px", margin:"10px"}}/>
-                            <img src={Python} alt="Python" style={{maxWidth:"100px", margin:"10px"}}/>
-                            <img src={Redux} alt="Redux" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={MySQL} alt="MySQL" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Sybase} alt="Sybase" style={{maxWidth:"100px", margin:"10px"}}/>
                             </div>
                         </Card>
                         </div>
