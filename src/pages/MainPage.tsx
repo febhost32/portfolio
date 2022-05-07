@@ -4,6 +4,16 @@ import Contacts from "../components/contacts/Contacts";
 import Card from "../components/card/Card";
 import Link from "../components/link/Link";
 import Febrian from "../assets/febrian.jpeg";
+import AEM from "../assets/AEM.png";
+import Android from "../assets/android.jpg";
+import Express from "../assets/express.png";
+import Java from "../assets/java.png";
+import JavaScript from "../assets/javascript.png";
+import jQuery from "../assets/jquery.png";
+import Python from "../assets/python.png";
+import React from "../assets/React.png";
+import Redux from "../assets/redux.png";
+import TypeScript from "../assets/TypeScript.png";
 import { Wrapper } from "../components/wrapper/Wrapper";
 import { InlineWrapper } from "../components/inlineWrapper/InlineWrapper";
 
@@ -58,6 +68,22 @@ function MainPage() {
                             <p>Email&emsp;: feb.pratama32@gmail.com <Link link="mailto: feb.pratama32@gmail.com" target="_blank" text="Mail here"/></p>
                             <p>LinkedIn&emsp;: <Link link="https://www.linkedin.com/in/febrian-pratama-putra-a25138147/" target="_blank" text="Visit here!"/> </p>
                             <p>Github&emsp;: <Link link="https://github.com/febhost32" target="_blank" text="Visit here!"/> </p>
+                        </Card>
+                        <Card>
+                            <h2 style={{textAlign: "center"}}>Tech Stack</h2>
+                            <hr />
+                            <div style={{display: "flex", placeItems:"center", justifyContent: "center", flexWrap: "wrap"}}>
+                            <img src={JavaScript} alt="JavaScript" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={React} alt="React" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={TypeScript} alt="TypeScript" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={AEM} alt="AEM" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Android} alt="Android" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Express} alt="Express" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Java} alt="Java" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={jQuery} alt="jQuery" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Python} alt="Python" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Redux} alt="Redux" style={{maxWidth:"100px", margin:"10px"}}/>
+                            </div>
                         </Card>
                         </div>
                         <div className="right-pane">
