@@ -73,6 +73,8 @@ function MainPage() {
                             <p>Email&emsp;: feb.pratama32@gmail.com <Link link="mailto: feb.pratama32@gmail.com" target="_blank" text="Mail here"/></p>
                             <p>LinkedIn&emsp;: <Link link="https://www.linkedin.com/in/febrian-pratama-putra-a25138147/" target="_blank" text="Visit here!"/> </p>
                             <p>Github&emsp;: <Link link="https://github.com/febhost32" target="_blank" text="Visit here!"/> </p>
+                            <hr />
+                            <p style={{textAlign: "center"}}>Check out my <Link link="https://drive.google.com/file/d/1-6BvASwCF94LgXVOLnjv5sHjZDuc2RHb/view?usp=sharing" target="_blank" text="CV here"/>!</p>
                         </Card>
                         <Card>
                             <h2 style={{textAlign: "center"}}>Tech Stack</h2>
