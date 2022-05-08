@@ -18,6 +18,8 @@ import CSS from "../assets/CSS3.png";
 import HTML from "../assets/HTML5.png";
 import MySQL from "../assets/MySQL.png";
 import Angular from "../assets/Angular.png";
+import Gatsby from "../assets/gatsby.png";
+import Git from "../assets/Git.png"
 import Sybase from "../assets/sybase.png";
 import { Wrapper } from "../components/wrapper/Wrapper";
 import { InlineWrapper } from "../components/inlineWrapper/InlineWrapper";
@@ -87,6 +89,8 @@ function MainPage() {
                             <img src={Angular} alt="Angular" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={AEM} alt="AEM" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={jQuery} alt="jQuery" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Gatsby} alt="Gatsby" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Git} alt="Git" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={HTML} alt="HTML5" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={CSS} alt="CSS3" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Java} alt="Java" style={{maxWidth:"100px", margin:"10px"}}/>
