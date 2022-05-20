@@ -110,10 +110,29 @@ function MainPage() {
                             <p>Freelance Web Development work where i do design, plan and Implement the UI based from proposed design along with all the features required to make such feature</p>
                             <br />
                             <Link link="https://sweetycare.com/gts/main/home" target="_blank" text="Visit site" />
+                            <hr />
+                            <h5>Achievements</h5>
+                            <ul>
+                                <li>Initiated the Gatsby Project for first Commit</li>
+                                <li>Built an Authentication &#40;login&#41; System using Redux</li>
+                                <li>Built the initial version of SSO &#40;Third Party authentication using Firebase for Facebook and Google logins&#41;</li>
+                                <li>Added Routing Prefix paths for better Application separation in one server</li>
+                                <li>Learned vanilla CSS for some advanced usage</li>
+                                <li>Built the initial footer of the web page</li>
+                                <li>Built Article Lists feature on the website</li>
+                                <li>Implemented Front-end side Pagination using React-paginate</li>
+                                <li>Built a sitemap for Search Engine Optimization &#40;SEO&#41;</li>
+                                <li>Built a User Discussion feature &#40;Topics and Comments like Disqus&#41;</li>
+                                <li>Built Mini Apps related to Mothers and Childs</li>
+                                <li>Implemented 3D Object loader and viewer using React-three-fiber</li>
+                                <li>Built a View-counter System for Discussion</li>
+                                <li>Built React Custom Hooks for Element detection in Browser's Viewport</li>
+                                <li>Built Social-media Sharing common components</li>
+                            </ul>
                         </Card>
                         <Card>
                             <h4>AIA Singapore</h4>
-                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Web Developer</p> <p className="italic fontsize-10">July 2020 - July 2022</p></InlineWrapper>
+                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Full-Stack Web Developer</p> <p className="italic fontsize-10">July 2020 - July 2022</p></InlineWrapper>
                             <hr />
                             <ul>
                                 <li>Maintaining existing code to be able to change with latest User Requirements</li>
@@ -134,6 +153,24 @@ function MainPage() {
                             </ul>
                             <br />
                             <Link link="https://myaia.aia.com.sg/en/my-aia/login.html" target="_blank" text="Visit site" />
+                            <hr />
+                            <h5>Achievements</h5>
+                            <ul>
+                                <li>Started as a Backend Developer &#40;Java&#41;</li>
+                                <li>Learned to maintain and update Existing Java Spring API for the Backend</li>
+                                <li>Learned how to debug a program</li>
+                                <li>Learned how to use Git Source Control and team's Git flow in general &#40;Using UI or CLI&#41;</li>
+                                <li>Learned to use Adobe Experience Manager &#40;Basically become a Front-end Developer&#41;</li>
+                                <li>Learned whole Deployment Process in Front End with AEM technology</li>
+                                <li>Learned Project Structure &#40;AEM&#41; of MyAIA</li>
+                                <li>Learned how to create a new Page in Mypage Admin</li>
+                                <li>Learned how to create new Sidebar Menu</li>
+                                <li>Implemented Form for Custom Banner CRUD</li>
+                                <li>Implemented search feature for mypage admin</li>
+                                <li>Implemented Pagination Feature</li>
+                                <li>Implemented HTTP Resource Service</li>
+                                <li>Implemented custom Download Function based from ArrayBuffer Response</li>
+                            </ul>
                         </Card>
                         <Card>
                             <h4>Sidoarjo Government</h4>
