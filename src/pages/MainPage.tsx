@@ -39,7 +39,7 @@ function MainPage() {
                     <Card>
                         <Wrapper>
                         <p className="aboutme">
-                        Hello, My name is Febrian, I am a Web developer with 2 Years Experience. Currently residing in <Link link="https://goo.gl/maps/23bWT56BXF9K6qXBA" target="_blank" text="Sumbawa Besar, NTB." /> 
+                        Hello, My name is Febrian, I am a Web developer with 2+ Years Experience. Currently residing in <Link link="https://goo.gl/maps/5xyUxEA3sMvGq1bV6" target="_blank" text="Batam" /> 
                         <br />
                         <br />
                         I have a Broad knowledge in front end development using technologies like Vanilla JavaScript, AEM, jQuery, Angular, React, Gatsby.
@@ -104,8 +104,22 @@ function MainPage() {
                         </div>
                         <div className="right-pane">
                         <Card>
+                            <h4>PT.Pertamina - Hukumonline.com</h4>
+                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Freelance Web Developer</p> <p className="italic fontsize-10">Jun 2022 - Aug 2022</p></InlineWrapper>
+                            <hr />
+                            <p>Pertamina, Collaborating with Hukumonline.com to create an Internal website for Databases of Law Firms and Lawyers</p>
+                            <br />
+                            <Link link="#" target="_self" text="Internal Website, Highly Confidential" />
+                            <hr />
+                            <h5>Achievements</h5>
+                            <ul>
+                                <li>Creating Common Components for the Website</li>
+                                <li>Giving Design feedback for better UX</li>
+                            </ul>
+                        </Card>
+                        <Card>
                             <h4>Kimberly-Clark Softex Indonesia</h4>
-                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Freelance Web Developer</p> <p className="italic fontsize-10">Sep 2021 - Mar 2022</p></InlineWrapper>
+                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Freelance Web Developer</p> <p className="italic fontsize-10">Sep 2021 - Jun 2022</p></InlineWrapper>
                             <hr />
                             <p>Freelance Web Development work where i do design, plan and Implement the UI based from proposed design along with all the features required to make such feature</p>
                             <br />
@@ -128,6 +142,7 @@ function MainPage() {
                                 <li>Built a View-counter System for Discussion</li>
                                 <li>Built React Custom Hooks for Element detection in Browser's Viewport</li>
                                 <li>Built Social-media Sharing common components</li>
+                                <li>Built Tracking feature for Page and Feature Clicks</li>
                             </ul>
                         </Card>
                         <Card>
@@ -170,6 +185,8 @@ function MainPage() {
                                 <li>Implemented Pagination Feature</li>
                                 <li>Implemented HTTP Resource Service</li>
                                 <li>Implemented custom Download Function based from ArrayBuffer Response</li>
+                                <li>Did a sharing sessions about Software Engineering from Google</li>
+                                <li>Become the Front-end Lead for MyAIA-Healthcare Integration Project</li>
                             </ul>
                         </Card>
                         <Card>
