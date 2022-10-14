@@ -71,7 +71,7 @@ function MainPage() {
                             <h3>Febrian Pratama Putra</h3>
                             <hr />
                             <p>Address&emsp;: Sumbawa Besar, West Nusa Tenggara</p>
-                            <p>Phone&emsp;: Check in my <Link link="https://drive.google.com/file/d/1-6BvASwCF94LgXVOLnjv5sHjZDuc2RHb/view?usp=sharing" target="_blank" text="CV"/></p>
+                            <p>Phone&emsp;: Check in my <Link link="https://drive.google.com/drive/folders/1lnnraiPF2qRDBla51TqRxnwutfg7w1D8" target="_blank" text="CV"/></p>
                             <p>Email&emsp;: feb.pratama32@gmail.com <Link link="mailto: feb.pratama32@gmail.com" target="_blank" text="Mail here"/></p>
                             <p>LinkedIn&emsp;: <Link link="https://www.linkedin.com/in/febrian-pratama-putra-a25138147/" target="_blank" text="Visit here!"/> </p>
                             <p>Github&emsp;: <Link link="https://github.com/febhost32" target="_blank" text="Visit here!"/> </p>
@@ -147,7 +147,7 @@ function MainPage() {
                         </Card>
                         <Card>
                             <h4>AIA Singapore</h4>
-                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Full-Stack Web Developer</p> <p className="italic fontsize-10">July 2020 - July 2022</p></InlineWrapper>
+                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Full-Stack Web Developer</p> <p className="italic fontsize-10">July 2020 - Now</p></InlineWrapper>
                             <hr />
                             <ul>
                                 <li>Maintaining existing code to be able to change with latest User Requirements</li>
