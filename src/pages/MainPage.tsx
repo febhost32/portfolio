@@ -76,7 +76,7 @@ function MainPage() {
                             <p>LinkedIn&emsp;: <Link link="https://www.linkedin.com/in/febrian-pratama-putra-a25138147/" target="_blank" text="Visit here!"/> </p>
                             <p>Github&emsp;: <Link link="https://github.com/febhost32" target="_blank" text="Visit here!"/> </p>
                             <hr />
-                            <p style={{textAlign: "center"}}>Check out my <Link link="https://drive.google.com/file/d/1-6BvASwCF94LgXVOLnjv5sHjZDuc2RHb/view?usp=sharing" target="_blank" text="CV here"/>!</p>
+                            <p style={{textAlign: "center"}}>Check out my <Link link="https://drive.google.com/drive/folders/1lnnraiPF2qRDBla51TqRxnwutfg7w1D8" target="_blank" text="CV here"/>!</p>
                         </Card>
                         <Card>
                             <h2 style={{textAlign: "center"}}>Tech Stack</h2>
@@ -157,6 +157,7 @@ function MainPage() {
                                         <li>MyAIA BAU</li>
                                         <li>MyAIA Phase4</li>
                                         <li>MyAIA Rewards</li>
+                                        <li>MyAIA - Healthcare Integration Project</li>
                                     </ul>
                                 </li>
                                 <li>As a Scrum Master, i also :
