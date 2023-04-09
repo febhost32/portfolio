@@ -6,7 +6,7 @@ const Title: React.FunctionComponent = () => {
     return (
     <div className="title">
         <h1>Febrian Pratama Putra</h1>
-        <h2>Web Developer, aspiring to be the Software Engineer</h2>
+        <h2>Software Engineer in the Making</h2>
     </div>
     )
 }

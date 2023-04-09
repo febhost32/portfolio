@@ -21,6 +21,9 @@ import Angular from "../assets/Angular.png";
 import Gatsby from "../assets/gatsby.png";
 import Git from "../assets/Git.png"
 import Sybase from "../assets/sybase.png";
+import NodeJs from "../assets/nodejs.png";
+import MongoDB from "../assets/mongodb.png";
+import Azure from "../assets/azure.png";
 import { Wrapper } from "../components/wrapper/Wrapper";
 import { InlineWrapper } from "../components/inlineWrapper/InlineWrapper";
 
@@ -29,9 +32,9 @@ function MainPage() {
         return (
             <div className="page-container">
                 <div className="main-section"> 
-                    <Contacts />   
                         <div className="title-layer">                 
                             <Title />
+                            <Contacts />   
                         </div>
                 </div>
                 <div className="aboutme-section"> 
@@ -39,25 +42,9 @@ function MainPage() {
                     <Card>
                         <Wrapper>
                         <p className="aboutme">
-                        Hello, My name is Febrian, I am a Web developer with 2+ Years Experience. Currently residing in <Link link="https://goo.gl/maps/5xyUxEA3sMvGq1bV6" target="_blank" text="Batam" /> 
+                        I am a Web developer with More than 3 Years of Experience coming from a reputable company 
+                        <br/> and now utilizing my skills and knowledge to build a product in a Startup. Currently residing in <Link link="https://goo.gl/maps/1SBHexztPLaG2rLBA" target="_blank" text="Jakarta" /> 
                         <br />
-                        <br />
-                        I have a Broad knowledge in front end development using technologies like Vanilla JavaScript, AEM, jQuery, Angular, React, Gatsby.
-                        <br />
-                        With a little bit experience in backend using Java Spring.
-                        <br />
-                        <br />
-                        Aside from that, thanks to smart and kind teammates at my first company i have been exposed to a number of Good Engineering Practices.
-                        <br />
-                        Such as Clean, Reusable Code.
-                        <br />
-                        Sharing Sessions.
-                        <br />
-                        Working as part of a Team.
-                        <br />
-                        Growth Mindset, etc.
-                        <br />
-                        I also have experience as a scrum master.
                         </p>
                         </Wrapper>
                     </Card>
@@ -70,7 +57,7 @@ function MainPage() {
                             <img src={Febrian} alt="Febrian" style={{borderRadius: "50%", maxWidth:"100px"}}/>
                             <h3>Febrian Pratama Putra</h3>
                             <hr />
-                            <p>Address&emsp;: Sumbawa Besar, West Nusa Tenggara</p>
+                            <p>Address&emsp;: Jakarta Selatan</p>
                             <p>Phone&emsp;: Check in my <Link link="https://drive.google.com/drive/folders/1lnnraiPF2qRDBla51TqRxnwutfg7w1D8" target="_blank" text="CV"/></p>
                             <p>Email&emsp;: feb.pratama32@gmail.com <Link link="mailto: feb.pratama32@gmail.com" target="_blank" text="Mail here"/></p>
                             <p>LinkedIn&emsp;: <Link link="https://www.linkedin.com/in/febrian-pratama-putra-a25138147/" target="_blank" text="Visit here!"/> </p>
@@ -83,7 +70,11 @@ function MainPage() {
                             <hr />
                             <div style={{display: "flex", placeItems:"center", justifyContent: "center", flexWrap: "wrap"}}>
                             <img src={JavaScript} alt="JavaScript" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Java} alt="Java" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={TypeScript} alt="TypeScript" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={NodeJs} alt="NodeJs" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={MongoDB} alt="MongoDB" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Azure} alt="Azure Cloud" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={React} alt="React" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Redux} alt="Redux" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Angular} alt="Angular" style={{maxWidth:"100px", margin:"10px"}}/>
@@ -93,7 +84,6 @@ function MainPage() {
                             <img src={Git} alt="Git" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={HTML} alt="HTML5" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={CSS} alt="CSS3" style={{maxWidth:"100px", margin:"10px"}}/>
-                            <img src={Java} alt="Java" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Python} alt="Python" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Android} alt="Android" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Express} alt="Express" style={{maxWidth:"100px", margin:"10px"}}/>
@@ -104,50 +94,15 @@ function MainPage() {
                         </div>
                         <div className="right-pane">
                         <Card>
-                            <h4>PT.Pertamina - Hukumonline.com</h4>
-                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Freelance Web Developer</p> <p className="italic fontsize-10">Jun 2022 - Aug 2022</p></InlineWrapper>
+                            <h4>Plugo</h4>
+                            <p className="quotes italic fontsize-9">In this chapter, i want to centralize all my previous knowledge of software engineering and put it into test by creating a product</p>
+                            <InlineWrapper><p className="fontsize-10 flex-grow-1">Software Developer</p> <p className="fontsize-10">May 2023 - Now</p></InlineWrapper>
                             <hr />
-                            <p>Pertamina, Collaborating with Hukumonline.com to create an Internal website for Databases of Law Firms and Lawyers</p>
-                            <br />
-                            <Link link="#" target="_self" text="Internal Website, Highly Confidential" />
-                            <hr />
-                            <h5>Achievements</h5>
-                            <ul>
-                                <li>Creating Common Components for the Website</li>
-                                <li>Giving Design feedback for better UX</li>
-                            </ul>
-                        </Card>
-                        <Card>
-                            <h4>Kimberly-Clark Softex Indonesia</h4>
-                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Freelance Web Developer</p> <p className="italic fontsize-10">Sep 2021 - Jun 2022</p></InlineWrapper>
-                            <hr />
-                            <p>Freelance Web Development work where i do design, plan and Implement the UI based from proposed design along with all the features required to make such feature</p>
-                            <br />
-                            <Link link="https://sweetycare.com/gts/main/home" target="_blank" text="Visit site" />
-                            <hr />
-                            <h5>Achievements</h5>
-                            <ul>
-                                <li>Initiated the Gatsby Project for first Commit</li>
-                                <li>Built an Authentication &#40;login&#41; System using Redux</li>
-                                <li>Built the initial version of SSO &#40;Third Party authentication using Firebase for Facebook and Google logins&#41;</li>
-                                <li>Added Routing Prefix paths for better Application separation in one server</li>
-                                <li>Learned vanilla CSS for some advanced usage</li>
-                                <li>Built the initial footer of the web page</li>
-                                <li>Built Article Lists feature on the website</li>
-                                <li>Implemented Front-end side Pagination using React-paginate</li>
-                                <li>Built a sitemap for Search Engine Optimization &#40;SEO&#41;</li>
-                                <li>Built a User Discussion feature &#40;Topics and Comments like Disqus&#41;</li>
-                                <li>Built Mini Apps related to Mothers and Childs</li>
-                                <li>Implemented 3D Object loader and viewer using React-three-fiber</li>
-                                <li>Built a View-counter System for Discussion</li>
-                                <li>Built React Custom Hooks for Element detection in Browser's Viewport</li>
-                                <li>Built Social-media Sharing common components</li>
-                                <li>Built Tracking feature for Page and Feature Clicks</li>
-                            </ul>
                         </Card>
                         <Card>
                             <h4>AIA Singapore</h4>
-                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">Full-Stack Web Developer</p> <p className="italic fontsize-10">July 2020 - Now</p></InlineWrapper>
+                            <p className="quotes italic fontsize-9">It is my first Job entering the real world of Software Engineering. I worked, collaborated and learned so much in this company.</p>
+                            <InlineWrapper><p className="fontsize-10 flex-grow-1">Full-Stack Web Developer</p> <p className="fontsize-10">July 2020 - May 2023</p></InlineWrapper>
                             <hr />
                             <ul>
                                 <li>Maintaining existing code to be able to change with latest User Requirements</li>
@@ -158,6 +113,7 @@ function MainPage() {
                                         <li>MyAIA Phase4</li>
                                         <li>MyAIA Rewards</li>
                                         <li>MyAIA - Healthcare Integration Project</li>
+                                        <li>Enterprise Architecture - AIA Masking Utility</li>
                                     </ul>
                                 </li>
                                 <li>As a Scrum Master, i also :
@@ -191,8 +147,50 @@ function MainPage() {
                             </ul>
                         </Card>
                         <Card>
+                            <h4>PT.Pertamina - Hukumonline.com</h4>
+                            <InlineWrapper><p className="fontsize-10 flex-grow-1">Freelance Web Developer</p> <p className="fontsize-10">Jun 2022 - Aug 2022</p></InlineWrapper>
+                            <hr />
+                            <p>Pertamina, Collaborating with Hukumonline.com to create an Internal website for Databases of Law Firms and Lawyers</p>
+                            <br />
+                            <Link link="#" target="_self" text="Internal Website, Highly Confidential" />
+                            <hr />
+                            <h5>Achievements</h5>
+                            <ul>
+                                <li>Creating Common Components for the Website</li>
+                                <li>Giving Design feedback for better UX</li>
+                            </ul>
+                        </Card>
+                        <Card>
+                            <h4>Kimberly-Clark Softex Indonesia</h4>
+                            <InlineWrapper><p className="fontsize-10 flex-grow-1">Freelance Web Developer</p> <p className="fontsize-10">Sep 2021 - Jun 2022</p></InlineWrapper>
+                            <hr />
+                            <p>Freelance Web Development work where i do design, plan and Implement the UI based from proposed design along with all the features required to make such feature</p>
+                            <br />
+                            <Link link="https://sweetycare.com/gts/main/home" target="_blank" text="Visit site" />
+                            <hr />
+                            <h5>Achievements</h5>
+                            <ul>
+                                <li>Initiated the Gatsby Project for first Commit</li>
+                                <li>Built an Authentication &#40;login&#41; System using Redux</li>
+                                <li>Built the initial version of SSO &#40;Third Party authentication using Firebase for Facebook and Google logins&#41;</li>
+                                <li>Added Routing Prefix paths for better Application separation in one server</li>
+                                <li>Learned vanilla CSS for some advanced usage</li>
+                                <li>Built the initial footer of the web page</li>
+                                <li>Built Article Lists feature on the website</li>
+                                <li>Implemented Front-end side Pagination using React-paginate</li>
+                                <li>Built a sitemap for Search Engine Optimization &#40;SEO&#41;</li>
+                                <li>Built a User Discussion feature &#40;Topics and Comments like Disqus&#41;</li>
+                                <li>Built Mini Apps related to Mothers and Childs</li>
+                                <li>Implemented 3D Object loader and viewer using React-three-fiber</li>
+                                <li>Built a View-counter System for Discussion</li>
+                                <li>Built React Custom Hooks for Element detection in Browser's Viewport</li>
+                                <li>Built Social-media Sharing common components</li>
+                                <li>Built Tracking feature for Page and Feature Clicks</li>
+                            </ul>
+                        </Card>
+                        <Card>
                             <h4>Sidoarjo Government</h4>
-                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">IT Auditor</p> <p className="italic fontsize-10">Sep 2018 - Nov 2018</p></InlineWrapper>
+                            <InlineWrapper><p className="fontsize-10 flex-grow-1">IT Auditor</p> <p className="fontsize-10">Sep 2018 - Nov 2018</p></InlineWrapper>
                             <hr />
                             <ul>
                                 <li>Collecting evidence require for IT Auditing Assessment</li>
@@ -204,7 +202,7 @@ function MainPage() {
                         </Card>
                         <Card>
                             <h4>PT. Eastern Pearl Flour Mills</h4>
-                            <InlineWrapper><p className="italic fontsize-10 flex-grow-1">IT Support</p> <p className="italic fontsize-10">June 2018 - Aug 2018</p></InlineWrapper>
+                            <InlineWrapper><p className="fontsize-10 flex-grow-1">IT Support</p> <p className="fontsize-10">June 2018 - Aug 2018</p></InlineWrapper>
                             <hr />
                             <ul>
                                 <li>Supporting daily IT Activities with IT Support staffs</li>

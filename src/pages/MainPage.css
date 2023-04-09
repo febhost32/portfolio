@@ -1,3 +1,7 @@
+.quotes {
+    margin: 0 0 10px 0;
+}
+
 p {
     margin: 0;
     tab-size: 2;
@@ -13,6 +17,10 @@ p {
 
 .fontsize-10 {
     font-size: 10pt;
+}
+
+.fontsize-9 {
+    font-size: 9pt;
 }
 
 .justify-text {
@@ -31,6 +39,7 @@ p {
 
 .page-container .title-layer {
     display: flex;
+    flex-direction: column;
     height: 80%;
     place-content: center;
     align-items: center;
