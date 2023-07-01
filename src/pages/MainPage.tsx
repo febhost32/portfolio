@@ -24,6 +24,9 @@ import Sybase from "../assets/sybase.png";
 import NodeJs from "../assets/nodejs.png";
 import MongoDB from "../assets/mongodb.png";
 import Azure from "../assets/azure.png";
+import Vue from "../assets/Vue.png";
+import Nuxt from "../assets/nuxt.png";
+import Golang from "../assets/golang.png";
 import { Wrapper } from "../components/wrapper/Wrapper";
 import { InlineWrapper } from "../components/inlineWrapper/InlineWrapper";
 
@@ -69,6 +72,9 @@ function MainPage() {
                             <h2 style={{textAlign: "center"}}>Tech Stack</h2>
                             <hr />
                             <div style={{display: "flex", placeItems:"center", justifyContent: "center", flexWrap: "wrap"}}>
+                            <img src={Vue} alt="Vue" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Nuxt} alt="Nuxt" style={{maxWidth:"100px", margin:"10px"}}/>
+                            <img src={Golang} alt="Golang" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={JavaScript} alt="JavaScript" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={Java} alt="Java" style={{maxWidth:"100px", margin:"10px"}}/>
                             <img src={TypeScript} alt="TypeScript" style={{maxWidth:"100px", margin:"10px"}}/>
@@ -95,9 +101,15 @@ function MainPage() {
                         <div className="right-pane">
                         <Card>
                             <h4>Plugo</h4>
-                            <p className="quotes italic fontsize-9">In this chapter, i want to centralize all my previous knowledge of software engineering and put it into test by creating a product</p>
-                            <InlineWrapper><p className="fontsize-10 flex-grow-1">Software Developer</p> <p className="fontsize-10">May 2023 - Now</p></InlineWrapper>
+                            <p className="quotes italic fontsize-9">Learn more technologies in a startup environment, Build, Maintain and Delivering products</p>
+                            <InlineWrapper><p className="fontsize-10 flex-grow-1">Software Engineer</p> <p className="fontsize-10">May 2023 - Now</p></InlineWrapper>
                             <hr />
+                            <ul>
+                                <li>Enhancing the Storefront Customization features and capabilities for our Users</li>
+                                <li>Building an App Generator for Google App Store for Sellers who wants to have their own apps</li>
+                            </ul>
+                            <br />
+                            <Link link="https://www.plugo.co/" target="_blank" text="Visit site" />
                         </Card>
                         <Card>
                             <h4>AIA Singapore</h4>
