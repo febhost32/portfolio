@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1234002,
+    "companyName": "Plugo",
+    "companyDescription": "Learn more technologies in a startup environment, Build, Maintain and Delivering product",
+    "companyPosition": "Software Engineer",
+    "workDate": "May 2023 - Now",
+    "companyUrl": "https://www.plugo.co/",
+    "whatYouDo": [
+      "Enhancing the Storefront Customization features and capabilities for our Users",
+      "Building an App Generator for Google App Store for Sellers who wants to have their own apps",
+      "In charge of maintenance and migration of internal POS System"
+    ],
+    "achievements": [
+      "Learned Vue and Nuxt",
+      "Learned Golang",
+      "Learned AWS Lambda",
+      "Learned AWS CDK",
+      "Learned ElasticSearch/OpenSearch"
+    ]
+  },
+  {
+    "id": 2424222,
+    "companyName": "AIA Singapore",
+    "companyDescription": "It is my first Job entering the real world of Software Engineering. I worked, collaborated and learned so much in this company.",
+    "companyPosition": "Full-Stack Web Developer",
+    "workDate": "July 2020 - May 2023",
+    "companyUrl": "https://myaia.aia.com.sg/en/my-aia/login.html",
+    "whatYouDo": [
+      "Maintaining existing code to be able to change with latest User Requirements",
+      "Plan, Design and Implement new feature to the software as per user Request",
+      "Involved in Projects Such as :",
+      "MyAIA BAU",
+      "MyAIA Phase4",
+      "MyAIA Rewardz",
+      "MyAIA - Healthcare Integration Project",
+      "Enterprise Achitecture - AIA Masking Utility",
+      "Taking Role such as a Scrum Master"
+    ],
+    "achievements": [
+      "Started as a Backend Developer (Java)",
+      "Learned to maintain and update Existing Java Spring API for the Backend",
+      "Learned how to debug a program",
+      "Learned how to use Git Source Control and team's Git flow in general (Using UI or CLI)",
+      "Learned to use Adobe Experience Manager (Basically become a Front-end Developer)",
+      "Learned whole Deployment Process in Front End with AEM technology",
+      "Learned Project Structure (AEM) of MyAIA",
+      "Learned how to create a new Page in Mypage Admin",
+      "Learned how to create new Sidebar Menu",
+      "Implemented Form for Custom Banner CRUD",
+      "Implemented search feature for mypage admin",
+      "Implemented Pagination Feature",
+      "Implemented HTTP Resource Service",
+      "Implemented custom Download Function based from ArrayBuffer Response",
+      "Did a sharing sessions about Software Engineering from Google",
+      "Become the Front-end Lead for MyAIA-Healthcare Integration Project"
+    ]
+  },
+  {
+    "id": 44252,
+    "companyName": "PT.Pertamina - Hukumonline.com",
+    "companyDescription": "Side Projects collaborating with Pertamina and Hukum Online",
+    "companyPosition": "Freelance Web Developer",
+    "workDate": "Jun 2022 - Aug 2022",
+    "companyUrl": "",
+    "whatYouDo": [
+      "Pertamina, Collaborating with Hukumonline.com to create an Internal website for Databases of Law Firms and Lawyers"
+    ],
+    "achievements": [
+      "Creating Common Components for the Website",
+      "Giving Design feedback for better UX"
+    ]
+  },
+  {
+    "id": 2309396,
+    "companyName": "Kimberly-Clark Softex Indonesia",
+    "companyDescription": "Side Projects creating the website sweetycare.com",
+    "companyPosition": "Freelance Web Developer",
+    "workDate": "Sep 2021 - Jun 2022",
+    "companyUrl": "https://sweetycare.com/gts/main/home",
+    "whatYouDo": [
+      "Freelance Web Development work where i do technical design, plan and Implement the UI based from proposed design along with all the features required to make such feature"
+    ],
+    "achievements": [
+      "Initiated the Gatsby Project for first Commit",
+      "Built an Authentication (login) System using Redux",
+      "Built the initial version of SSO (Third Party authentication using Firebase for Facebook and Google logins)",
+      "Added Routing Prefix paths for better Application separation in one server",
+      "Learned vanilla CSS for some advanced usage",
+      "Built the initial footer of the web page",
+      "Built Article Lists feature on the website",
+      "Implemented Front-end side Pagination using React-paginate",
+      "Built a sitemap for Search Engine Optimization (SEO)",
+      "Built a User Discussion feature (Topics and Comments like Disqus)",
+      "Built Mini Apps related to Mothers and Childs",
+      "Implemented 3D Object loader and viewer using React-three-fiber",
+      "Built a View-counter System for Discussion",
+      "Built React Custom Hooks for Element detection in Browser's Viewport",
+      "Built Social-media Sharing common components",
+      "Built Tracking feature for Page and Feature Clicks"
+    ]
+  },
+  {
+    "id": 66657,
+    "companyName": "Sidoarjo Government",
+    "companyDescription": "",
+    "companyPosition": "IT Auditor",
+    "workDate": "Sep 2018 - Nov 2018",
+    "companyUrl": "https://www.google.com/maps/place/Command+Center+Sidoarjo/@-7.4433091,112.6949677,13.75z/data=!4m5!3m4!1s0x0:0x8637a18fae8094b9!8m2!3d-7.4443756!4d112.7185018?shorturl=1",
+    "whatYouDo": [
+      "Collecting evidence require for IT Auditing Assessment",
+      "Communicate with user regarding said evidence for more information",
+      "Assessing collected evidence according to Government Issued Standard (SPBE)"
+    ]
+  },
+  {
+    "id": 62357,
+    "companyName": "PT. Eastern Pearl Flour Mills",
+    "companyDescription": "",
+    "companyPosition": "IT Support",
+    "workDate": "June 2018 - Aug 2018",
+    "companyUrl": "https://id.interflour.com/",
+    "whatYouDo": [
+      "Supporting daily IT Activities with IT Support staffs",
+      "Maintaining and monitoring network infrastructure within company"
+    ]
+  }
+]
